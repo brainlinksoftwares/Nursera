@@ -1,0 +1,42 @@
+name: nursera
+description: "Nursera is a BSc Nursing education app for Indian nursing students. Built with Flutter and GetX for seamless cross-platform experience on Android and iOS."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management + routing
+  get: ^4.6.6
+
+  # Backend API calls
+  http: ^1.2.0
+
+  # Local storage (auth token save karne ke liye)
+  shared_preferences: ^2.2.2
+
+  # Images
+  cached_network_image: ^3.3.1
+
+  # Fonts
+  google_fonts: ^6.1.0
+
+  # Animations
+  lottie: ^3.0.0
+
+  # SVG icons
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
